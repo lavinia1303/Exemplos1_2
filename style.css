@@ -1,0 +1,55 @@
+.caixa1{
+    background-color: rgb(64, 64, 155);
+    color: aliceblue;
+    width: 300px;
+    height: 100px;
+}
+.displayb{
+    background-color: aqua;
+    margin-top: 10px;
+}
+.spanin{
+    background-color: rgb(235, 76, 179);
+}
+.caixa{
+    background-color: darkmagenta;
+    border: 4px solid black;
+
+    margin: 20px 0 0 0;
+    padding: 10PX;
+}
+.area-flex{
+    background-color: antiquewhite;
+    margin-top: 10px;
+    display: flex;
+    border: 3px dashed black;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* PARA DEIXAR EM COLUNAS OS ITENS */
+    flex-direction: column;
+}
+
+.item{
+    background-color: rgb(251, 153, 111);
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.cartao{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
+}
+
+.item-cartao{
+    background-color: cadetblue;
+    text-align: center;
+    /* PARA AUMENTAR O TAMANHO DO QUADRADO */
+    padding: 20px;
+    /* PARA DEIXAR OS ITENS COM ESPAÇAMENTO */
+    margin: 10px;
+    /* ARREDONDAR AS BORDAS */
+    border-radius: 10px;
+}
